@@ -20,4 +20,8 @@ cask "controlpanel" do
   homepage "https://github.com/owlcms/owlcms-controlpanel"
 
   app "owlcms.app"
+
+  postflight do
+    system_command "/usr/bin/xattr", args: ["-cr", "#{appdir}/owlcms.app"]
+  end
 end
