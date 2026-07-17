@@ -1,4 +1,4 @@
-cask "controlpanel-prerelease" do
+cask "controlpanel@3.5.0-rc03" do
   version "3.5.0-rc03"
 
   on_arm do
@@ -15,8 +15,8 @@ cask "controlpanel-prerelease" do
         verified: "github.com/owlcms/owlcms-controlpanel/"
   end
 
-  name "OWLCMS Control Panel Prerelease"
-  desc "Prerelease control panel for OWLCMS weightlifting competitions"
+  name "OWLCMS Control Panel 3.5.0-rc03"
+  desc "Control panel for OWLCMS weightlifting competitions"
   homepage "https://github.com/owlcms/owlcms-controlpanel"
 
   app "owlcms.app"
