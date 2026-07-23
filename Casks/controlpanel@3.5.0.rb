@@ -1,4 +1,4 @@
-cask "controlpanel" do
+cask "controlpanel@3.5.0" do
   version "3.5.0"
 
   on_arm do
@@ -15,7 +15,7 @@ cask "controlpanel" do
         verified: "github.com/owlcms/owlcms-controlpanel/"
   end
 
-  name "OWLCMS Control Panel"
+  name "OWLCMS Control Panel 3.5.0"
   desc "Control panel for OWLCMS weightlifting competitions"
   homepage "https://github.com/owlcms/owlcms-controlpanel"
 
