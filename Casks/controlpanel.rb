@@ -1,15 +1,15 @@
 cask "controlpanel" do
-  version "3.9.0"
+  version "3.10.0"
 
   on_arm do
-    sha256 "61422d51974645e4d328eee2876c51b7044ae9eedaf3c4b0abff613d7653b187"
+    sha256 "46a16acdb5d23b3f3f9225025dac36aa05284f27e0ba85e13449face1921bb40"
 
     url "https://github.com/owlcms/owlcms-controlpanel/releases/download/#{version}/macOS_OWLCMS.dmg",
         verified: "github.com/owlcms/owlcms-controlpanel/"
   end
 
   on_intel do
-    sha256 "10b07c918329774bc81b652f6e80d99b99bef68dd15880c7b6adedd1e576e822"
+    sha256 "8fe02dea59b9cbb346e796825deaebaed41cfb13fac78a01335b28bf290fb1d1"
 
     url "https://github.com/owlcms/owlcms-controlpanel/releases/download/#{version}/macOS_Intel_OWLCMS.dmg",
         verified: "github.com/owlcms/owlcms-controlpanel/"
